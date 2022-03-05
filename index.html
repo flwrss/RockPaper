@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <img id="logo" src="download.png" alt="">
+        <h1 id="title">Rock Paper Scissors</h1>
+        <div id="rules">
+            <h3>Rules</h3>
+            <ul>
+                <li>Rock wins against scissors.</li>
+                <li>Scissors win against paper.</li>
+                <li>Paper wins against rock.</li>
+            </ul>
+        </div>
+        <button onclick="shoot()">Shoot</button>
+        <!-- <button onclick="startAgain()">Start Again</button> -->
+        <p id="display-el">Good Luck! (◕‿◕)</p>
+        <p>Don't Cheat. Tell me if you Won or Lost! </p>
+        <!-- <button id="won" >Won</button> -->
+        <button onclick="won()" >Won</button>
+        <button onclick="lost()" >Lost</button>
+        <p id="won-el">Win Count: </p>
+        <p id="lost-el">Lost Count: </p>
+        <p id="score-el">Final Score: </p>
+        <button onclick="resetScore()">Reset</button>
+        <p id="contact">followMe: <a href="#">twitter</a> <a href="#">github</a></p>
+        <script src="index.js"></script>
+    </body>
+</html>
